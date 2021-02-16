@@ -1,0 +1,36 @@
+{
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+	  "outDir": "./out-tsc/app",
+	  "types": [],
+	  "paths": {
+		"@app/*": ["src/app/*"],
+		"@auth/*": ["src/app/auth/*"],
+  
+		"@public/*": ["src/app/public/*"],
+  
+		"@secure/*": ["src/app/secure/*"],
+		"@components/*": ["src/app/shared/components/*"],
+		"@services/*": ["src/app/shared/services/*"],
+		"@models/*": ["src/app/shared/model/*"],
+		"@validators/*": ["src/app/shared/validators/*"],
+		"@assets/*": ["src/assets/*"],
+		"@environments/*": ["src/environments/*"],
+		"@shared/*": ["src/app/shared/*"],
+		"@_metronic/*": ["src/app/shared/_metronic/*"],
+		"@modules/*": ["src/app/shared/modules/*"]
+	  }
+	},
+	"files": [
+	  "src/main.ts",
+	  "src/polyfills.ts"
+	],
+	"include": [
+	  "src/**/*.ts"
+	],
+	"exclude": [
+	  "src/test.ts",
+	  "src/**/*.spec.ts"
+	]
+  }
+  
