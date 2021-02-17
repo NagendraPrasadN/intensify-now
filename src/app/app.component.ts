@@ -5,7 +5,7 @@ import { Subscription } from 'rxjs';
 import { SplashScreenService } from './shared/_metronic/partials/layout/splash-screen/splash-screen.service';
 
 @Component({
-  selector: 'body[root]',
+  selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
